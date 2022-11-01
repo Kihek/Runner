@@ -11,7 +11,7 @@ public class BunnyScript : MonoBehaviour
 
     public float JumpForce;
 
-    private void Start()
+    private void Awake()
     {
         RB = GetComponent<Rigidbody2D>();
     }
